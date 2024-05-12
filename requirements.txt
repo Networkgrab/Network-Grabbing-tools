@@ -1,0 +1,13 @@
+python3-nmap
+python3
+subprocess
+socket
+threading
+pyfiglet
+colorama
+os
+scapy
+base64
+time
+re
+xml.etree.ElementTree

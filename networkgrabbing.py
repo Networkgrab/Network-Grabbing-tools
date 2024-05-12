@@ -7,8 +7,6 @@ import os
 import threading
 from scapy.all import IP, TCP, sr1, RandShort
 from scapy.all import *
-import getpass
-import ftplib
 import base64
 import nmap
 from scapy.layers.inet import IP, ICMP
