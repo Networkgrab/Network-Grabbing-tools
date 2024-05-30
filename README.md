@@ -76,50 +76,51 @@ Using these scripts is very easy, though it assumes you have nmap already instal
 2. Follow the installation instructions provided by the installer.
 3. Note down the installation directory of nmap (e.g., `C:\Program Files (x86)\Nmap`).
 
-### Clone the Repository
+### Clone the Repository and Install Dependencies
 1. Open Command Prompt (cmd) or PowerShell.
 2. Navigate to the directory where you want to clone the repository.
 3. Run the following command to clone the repository:
 
     ```sh
     git clone https://github.com/Networkgrab/Networkgrabbing.git
-    ```
+4. Navigate to the cloned repository directory:
 
-### Install Dependencies
-Navigate to the cloned repository directory:
+   ```sh
+   cd Networkgrabbing
+5. Install the required dependencies using pip:
 
-```sh
-cd Networkgrabbing
-Install the required dependencies using pip:
-```sh
-pip install -r requirements.txt
+   ```sh
+   pip install -r requirements.txt
 
-## Usage
 
-### Navigate to the Networkgrabbing Directory
+### Usage
+
+### Navigate to the Networkgrabbing Directory And Execute the Script
 1. Open a terminal or Command Prompt.
 2. Navigate to the Networkgrabbing directory within the cloned repository:
 
     ```sh
     cd Networkgrabbing
-    ```
 
-### Execute the Script
-Run the following command:
+3. Run the following command:
 
     ```sh
     python3 networkgrabbing.py
 
 ## Contributing
 
-Guidelines for contributing to the project. This could include information about how to report bugs, suggest enhancements, or submit pull requests.
+Guidelines for contributing to the project:
+
+- Report bugs
+- Suggest enhancements
+- Submit pull requests
 
 ## Team Members
 
-- [Avart raj Vishwakarma](link_to_profile_or_contact_information)
-- [Khushi Kumari](link_to_profile_or_contact_information)
-- [Deepak Singh](link_to_profile_or_contact_information)
-- [Mansi Dubey](link_to_profile_or_contact_information)
+- [Avart raj Vishwakarma]
+- [Khushi Kumari]
+- [Deepak Singh]
+- [Mansi Dubey]
 
 ## License
 
